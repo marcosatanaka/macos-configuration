@@ -66,6 +66,8 @@ brew install git
 ### Using Sublime Text as Git editor
 
 ```
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin
+
 git config --global core.editor "subl -n -w"
 ```
 
